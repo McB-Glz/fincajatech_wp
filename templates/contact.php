@@ -2,30 +2,30 @@
 
     <div class="container-fluid clearfix">
 
-        <div class="row topmargin bottommargin">
-            <div class="col-sm-5 border">
+        <div class="row topmargin">
+            <div class="col-sm-5">
                 <div class="img-wrapper bottommargin topmargin-xl">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/form.png" class="img-responsive img-center">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/fincajatech.png" class="img-responsive img-center">
                 </div>
                 <address class="text-center bottommargin">
                     Bosque de Cidros 54 Int. 302 B,<br/> 
                     Bosques de las Lomas, Cuajimalpa <br/> 
                     C.P. 05120, México D.F.<br/> 
                     Tel. <a href="tel:+525552508887">+52 (55) 5250 8887</a><br/>
-                    <a href="mailto:contacto@finadvice.com.mx">contacto@finadvice.com.mx</a>
+                    <a href="mailto:contacto@fincaja.com.mx">contacto@fincaja.com.mx</a>
                 </address>
                 <div class="img-wrapper text-center">
                     <!-- <img src="assets/img/logos/linkedin.png" class="img-responsive img-center"> -->
-                    <a href="https://www.linkedin.com/company/finadvice-financial-solutions" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a> <a href="https://twitter.com/FinCajaTech_Mx" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/company/finadvice-financial-solutions" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a> <a href="https://www.facebook.com/fincaja.com.mx" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
                 </div>
             </div>
             <!-- Contact Form
             ============================================= -->
             <div class="col-sm-7">
-                <h3>Envianos tus comentarios y suscribete a nuestro Newsletter</h3>
-                <div id="contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Gracias por enviarnos tu mensaje"></div>
+                <h3>Envianos tus comentarios</h3>
+                <!-- <div id="contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Gracias por enviarnos tu mensaje"></div> -->
 
-                <form class="nobottommargin" id="template-contactform" name="template-contactform" action="assets/include/sendemail.php" method="post">
+                <!-- <form class="nobottommargin" id="template-contactform" name="template-contactform" action="assets/include/sendemail.php" method="post">
 
                 <div class="form-process"></div>
 
@@ -69,6 +69,9 @@
                 </div>
 
             </form>
+ -->
+
+            <?php echo do_shortcode('[contact-form-7 id="5" title="fincajatech"]') ?>
 
             </div><!-- Contact Form End -->
         </div>

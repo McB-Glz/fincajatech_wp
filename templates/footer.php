@@ -7,7 +7,7 @@
       <div class="container clearfix">
 
           <div class="col_half">
-              Copyright &copy; 2015 Todos los derechos reservados | Finadvice<br>
+              Copyright &copy; 2017 Todos los derechos reservados | FinCaja Technology<br>
               <div class="copyright-links"><a href="aviso-de-privacidad.html">Aviso de Privacidad</a></div>
           </div>
 

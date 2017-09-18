@@ -57,5 +57,6 @@ use Roots\Sage\Wrapper;
 
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/velocity.min.js"></script>
     <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/assets/js/app.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.0/slick/slick.min.js"></script>
   </body>
 </html>

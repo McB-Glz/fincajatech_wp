@@ -19,6 +19,13 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+        $('#slick-slider').slick({
+          arrows: false,
+          dots: true,
+          speed: 500,
+          autoplay: true,
+          autoplaySpeed: 8000,
+        });
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired

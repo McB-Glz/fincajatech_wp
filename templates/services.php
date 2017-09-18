@@ -1,4 +1,4 @@
-<section id="section-servicios" class="page-section servicios">
+<section id="section-servicios" class="page-section servicios wave">
 
     <div class="container-fluid clearfix">
 

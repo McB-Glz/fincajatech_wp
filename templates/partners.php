@@ -1,4 +1,4 @@
-<section id="section-exp" class="page-section exp">
+<section id="section-exp" class="page-section exp wave blue-bg">
 
     <div class="container-fluid clearfix">
 
@@ -12,11 +12,11 @@
             <div class="col-sm-4 text-justify">
                 <div class="thumbnail">
                     <div class="img-wrapper">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/inmediprest.png" class="img-center img-responsive">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/finadvice.png" class="img-center img-responsive">
                     </div>
-                    <div class="desc">
+                    <!-- div class="desc">
                         <p>Asesoría financiera y legal para la estructuración de una línea de crédito institucional, para créditos de capital de trabajo.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-sm-4 text-justify">
@@ -24,19 +24,19 @@
                     <div class="img-wrapper">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/fincaja.png" class="img-center img-responsive">
                     </div>
-                    <div class="desc">
+                    <!-- <div class="desc">
                         <p>Asesoría financiera y operativa, desarrollo del proceso para la autorización y gestión de micro créditos con descuentos vía nómina en la industria privada.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
              <div class="col-sm-4 text-justify">
                 <div class="thumbnail">
                     <div class="img-wrapper">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/edupass.png" class="img-center img-responsive">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/vm.png" class="img-center img-responsive">
                     </div>
-                    <div class="desc">
+                    <!-- <div class="desc">
                         <p>Asesoría financiera y legal para la estructuración de una línea de crédito institucional, para créditos de financiamiento educativo.</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
